@@ -1,0 +1,13 @@
+name: Abdul rahman
+
+on: 
+   push:
+   branches: [ main ]
+
+   jobs:
+    project demo:
+    runs-on: ubuntu-latest
+
+    steps:
+       - name: greetings
+         run: echo "hello this is rahman"
