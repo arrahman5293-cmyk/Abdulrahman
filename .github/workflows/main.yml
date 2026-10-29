@@ -2,12 +2,12 @@ name: Abdul rahman
 
 on: 
    push:
-   branches: [ main ]
+   branches: [main]
 
-   jobs:
-    project demo:
+jobs:
+    demo:
     runs-on: ubuntu-latest
 
-    steps:
-       - name: greetings
-         run: echo "hello this is rahman"
+steps:
+      name: greetings
+      run: echo"hello this is rahman"
